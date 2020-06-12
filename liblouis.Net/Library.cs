@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace liblouis
+namespace liblouis.Net
 {
     public static class Library
     {
@@ -17,8 +17,10 @@ namespace liblouis
             [In]
             string tableList,
             [In]
+            [MarshalAs(UnmanagedType.LPArray)]
             byte[] inbuf,
             [Out]
+            [MarshalAs(UnmanagedType.LPArray, SizeParamIndex = 3)]
             byte[] outbuf,
             [Out]
             int length,
