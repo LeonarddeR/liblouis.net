@@ -24,6 +24,7 @@ namespace liblouis.Net
             byte[] outbuf,
             [Out]
             int length,
-            int mode);
+            int mode
+        );
     }
 }

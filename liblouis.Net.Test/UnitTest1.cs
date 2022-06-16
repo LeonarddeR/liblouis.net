@@ -8,7 +8,6 @@ namespace liblouis.Test
         [Fact]
         public void Test1()
         {
-
         }
     }
 }

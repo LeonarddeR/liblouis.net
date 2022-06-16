@@ -10,7 +10,7 @@ namespace liblouis.Net.ConsoleApp
         [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         static extern bool SetDllDirectory(string lpPathName);
 
-        static void Main(string[] args)
+        static void Main()
         {
             SetDllDirectory(@"C:\Program Files (x86)\NVDA");
             String intje = "hoi";
